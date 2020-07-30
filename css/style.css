@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(3, 3, 37, 0.8);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container {
+    min-height: 50vh;
+    margin-top: 15%;
+    padding: 5%;
+    border-radius: 10px;
+}
+.btn {
+    font-size: 25px !important;
+}
+
+.btn:hover {
+    background-color: rgba(3, 3, 37, 0.8) !important;
+    color: #fff !important;
+}
+
+.ommissionMessage {
+    background-color: rgba(201, 111, 111, 0.7);
+    color: rgb(88, 2, 2);
+    font-size: 25px;
+}
+
+.DeliveredMessage {
+    font-size: 25px;
+}
